@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Hisab_card from "./components/single_components/hisab_card";
 
 const Page = () => {
   return (
-    <div>Home Page</div>
-  )
-}
+    <>
+      <Hisab_card />
+    </>
+  );
+};
 
-export default Page
+export default Page;
