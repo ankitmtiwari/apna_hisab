@@ -1,4 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    background-color: #48484a;
+}
+/* .profile_card_div{
+    background-color: green;
+    height: 40vh;
+    width:15vw; 
+    border-radius: 10px;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .profile_img_div{
+    padding: 10px;
+    border-radius: 10px;
+    height: 70%;
+    width: 100%; 
+    overflow: hidden;
+} */
+
+/* .profile_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+} */

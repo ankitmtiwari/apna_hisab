@@ -4,7 +4,7 @@ import Auth from "./components/main_component/auth";
 const Page = () => {
   return (
     <>
-      <Auth />
+      {/* <Auth /> */}
       <Hisab_card />
     </>
   );
