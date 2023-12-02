@@ -6,6 +6,11 @@ const Page = () => {
     <>
       {/* <Auth /> */}
       <Hisab_card />
+      <Hisab_card />
+      <Hisab_card />
+      <Hisab_card />
+      <Hisab_card />
+      <Hisab_card />
     </>
   );
 };
