@@ -16,8 +16,12 @@ const Auth = () => {
   };
   return (
     <>
-      <div>
-        <form className="max-w-md mx-auto my-8" onSubmit={handleSubmit}>
+      <div id="signup_form_div">
+        <form
+          className="max-w-md mx-auto my-8"
+          onSubmit={handleSubmit}
+          method="POST"
+        >
           {/* Form fields */}
           <div className="mb-4">
             <label

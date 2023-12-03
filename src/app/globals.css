@@ -4,6 +4,40 @@
 body{
     background-color: #48484a;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#signup_form_div{
+    background: transparent;
+}
+@media(min-width:641px) {
+    #all_hisab_cards{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }  
+}
+
+@media(min-width:950px) {
+    #all_hisab_cards{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 10px;
+    }  
+}
+
+@media(min-width:1040px) {
+    #all_hisab_cards{
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }  
+}
+
+
 /* .profile_card_div{
     background-color: green;
     height: 40vh;

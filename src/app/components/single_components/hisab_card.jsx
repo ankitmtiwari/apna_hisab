@@ -1,8 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-const Hisab_card = () => {
-  const amt1 = -1565;
+const Hisab_card = (props) => {
+  const amt1 = props.amt;
+  const img = props.img;
   var color = "rgb(74, 222, 128)";
   if (amt1 < 0) {
     color = "rgb(239,68,68)";
@@ -11,62 +12,23 @@ const Hisab_card = () => {
 
   return (
     <>
-      <div className="m-6 bg-[#f9f5f5] p-6  flex gap-10">
-        <div className="profile_card cursor-pointer p-2 bg-white w-[18rem] h-[24rem] rounded-3xl flex flex-col justify-around items-center shadow-lg transition-transform hover:scale-105 transform-gpu duration-300 ease-out will-change-transform hover:shadow-sm">
-          <div
-            style={{ borderColor: color }}
-            className={`profile_img w-[12rem]  h-[12rem] border-[0.45rem] p-2  rounded-full  mx-auto`}
-          >
-            <img
-              src={"/profile.jpg"}
-              className="w-[100%] h-[100%] object-cover bg-contain rounded-full block"
-            />
-          </div>
-          <div className="text-3xl font-bold font-sans">Ankit Tiwari</div>
-          <div
-            style={{ backgroundColor: color }}
-            className={`text-[1.5rem] font-bold rounded-xl text-white px-[4.5rem] py-[0.45rem] whitespace-nowrap `}
-          >
-            {amt1}/-
-          </div>
+      <div className="profile_card cursor-pointer p-2 mx-auto m-2 bg-white w-[18rem] h-[24rem] rounded-3xl flex flex-col justify-around items-center shadow-lg transition-transform sm:hover:scale-105 transform-gpu duration-300 ease-out will-change-transform hover:shadow-sm">
+        <div
+          style={{ borderColor: color }}
+          className={`profile_img w-[12rem]  h-[12rem] border-[0.45rem] p-2  rounded-full  mx-auto`}
+        >
+          <img
+            src={"/profile.jpg"}
+            className="w-[100%] h-[100%] object-cover bg-contain rounded-full block"
+          />
         </div>
-        <div className="profile_card cursor-pointer p-2 bg-white w-[18rem] h-[24rem] rounded-3xl flex flex-col justify-around items-center shadow-lg transition-transform hover:scale-105 transform-gpu duration-300 ease-out will-change-transform hover:shadow-sm">
-          <div
-            style={{ borderColor: color }}
-            className={`profile_img w-[12rem]  h-[12rem] border-[0.45rem] p-2  rounded-full  mx-auto`}
-          >
-            <img
-              src={"/profile.jpg"}
-              className="w-[100%] h-[100%] object-cover bg-contain rounded-full block"
-            />
-          </div>
-          <div className="text-3xl font-bold font-sans">Ankit Tiwari</div>
-          <div
-            style={{ backgroundColor: color }}
-            className={`text-[1.5rem] font-bold rounded-xl text-white px-[4.5rem] py-[0.45rem] whitespace-nowrap `}
-          >
-            {amt1}/-
-          </div>
+        <div className="bname text-lg md:text-xl lg:text-2xl xl:text-3xl leading-5 font-bold font-sans">Ankit Tiwari</div>
+        <div
+          style={{ backgroundColor: color }}
+          className={`text-md md:text-lg lg:text-xl xl:text-2xl leading- font-bold rounded-xl text-white px-[4.5rem] py-[0.45rem] whitespace-nowrap `}
+        >
+          {amt1}/-
         </div>
-        <div className="profile_card cursor-pointer p-2 bg-white w-[18rem] h-[24rem] rounded-3xl flex flex-col justify-around items-center shadow-lg transition-transform hover:scale-105 transform-gpu duration-300 ease-out will-change-transform hover:shadow-sm">
-          <div
-            style={{ borderColor: color }}
-            className={`profile_img w-[12rem]  h-[12rem] border-[0.45rem] p-2  rounded-full  mx-auto`}
-          >
-            <img
-              src={"/profile.jpg"}
-              className="w-[100%] h-[100%] object-cover bg-contain rounded-full block"
-            />
-          </div>
-          <div className="text-3xl font-bold font-sans">Ankit Tiwari</div>
-          <div
-            style={{ backgroundColor: color }}
-            className={`text-[1.5rem] font-bold rounded-xl text-white px-[4.5rem] py-[0.45rem] whitespace-nowrap `}
-          >
-            {amt1}/-
-          </div>
-        </div>
-
       </div>
     </>
   );
