@@ -41,6 +41,9 @@ input[type=number]::-webkit-outer-spin-button {
 .all_profiles::-webkit-scrollbar{
     display: none;
 }
+.chats_transactions::-webkit-scrollbar{
+    display: none;
+}
 /* .profile_card_div{
     background-color: green;
     height: 40vh;
