@@ -6,6 +6,8 @@ const Page = () => {
   return (
     <>
       <Dashboard />
+      <Hisab_card amt="1025600" img="/profile.jpg" />
+
       {/* <Auth />
       <div id="all_hisab_cards">
         <Hisab_card amt="1025600" img="/profile.jpg" />
