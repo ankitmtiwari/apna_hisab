@@ -1,5 +1,6 @@
 import React from "react";
 import Chat_profle_tile from "../single_components/Chat_profle_tile";
+import Paid_received_chat from "../single_components/Paid_received_chat";
 
 const Dashboard = () => {
   return (
@@ -32,148 +33,54 @@ const Dashboard = () => {
               <div className="p-4">Ankit Tiwari</div>
             </div>
             <div className="chats_transactions h-[85%] p-6 rounded-b-md bg-[#F5F7F8] overflow-y-auto">
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-end w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-green-400">
-                  100
-                </div>
-              </div>
-              <div className="flex justify-start w-full p-2 m-2 ">
-                <div className="px-7 py-4 border rounded-[10px] text-white text-lg font-bold bg-[rgb(239,68,68)]">
-                  100
-                </div>
-              </div>
+              <Paid_received_chat
+                amt={10000}
+                paid_rece={"paid"}
+                desc={
+                  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ex."
+                }
+                date={"09 Dec 2023"}
+                isPending={true}
+              />
+              <Paid_received_chat
+                amt={100}
+                paid_rece={"paid"}
+                desc={
+                  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ex."
+                }
+                date={"09 Dec 2023"}
+                isPending={false}
+              />
+              <Paid_received_chat
+                amt={100}
+                paid_rece={"received"}
+                desc={
+                  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ex."
+                }
+                date={"09 Dec 2023"}
+                isPending={false}
+              />
+              {/* <Paid_received_chat amt={200000} paid_rece={"paid"} />
+              <Paid_received_chat amt={100000} paid_rece={"received"} />
+              <Paid_received_chat amt={200000} paid_rece={"paid"} />
+              <Paid_received_chat amt={200000} paid_rece={"paid"} />
+              <Paid_received_chat amt={200000} paid_rece={"paid"} />
+              <Paid_received_chat amt={200000} paid_rece={"paid"} /> */}
             </div>
-            <div className="pay_recive h-10 flex m-2">
-              <input
-                type="number"
-                className="mx-4 px-4 w-[60%] rounded-xl border border-1"
-                placeholder="Enter Amount..."
-              ></input>
-              <div className="bg-[#09ff40] px-10 rounded-lg text-white text-lg flex items-center mx-4 cursor-pointer">
-                Paid
-              </div>
-              <div className="bg-[rgb(239,68,68)] px-10 rounded-lg text-white text-lg flex items-center mx-4 cursor-pointer">
-                Received
+            <div className="border-b-2 border-x-2 rounded-lg">
+              <div className="pay_recive h-10 flex m-2 ">
+                <input
+                  type="number"
+                  className="mx-4 px-4 w-[60%] rounded-xl border border-1"
+                  placeholder="Enter Amount..."
+                ></input>
+                {/* <div className="bg-[#09ff40] px-10 rounded-lg text-white text-lg flex items-center mx-4 cursor-pointer"> */}
+                <div className="bg-green-400 px-10 rounded-lg text-white text-lg font-[500] flex items-center mx-4 cursor-pointer">
+                  Paid
+                </div>
+                <div className="bg-[rgb(239,68,68)] px-10 rounded-lg text-white text-lg font-[500]  flex items-center mx-4 cursor-pointer">
+                  Received
+                </div>
               </div>
             </div>
           </div>
