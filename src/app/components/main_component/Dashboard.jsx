@@ -34,6 +34,15 @@ const Dashboard = () => {
             </div>
             <div className="chats_transactions h-[85%] p-6 rounded-b-md bg-[#F5F7F8] overflow-y-auto">
               <Paid_received_chat
+                amt={720}
+                paid_rece={"received"}
+                desc={
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto minima cumque ut corporis sint fugit."
+                }
+                date={"09 Dec 2023"}
+                isPending={false}
+              />
+              <Paid_received_chat
                 amt={10000}
                 paid_rece={"paid"}
                 desc={
@@ -55,19 +64,40 @@ const Dashboard = () => {
                 amt={100}
                 paid_rece={"received"}
                 desc={
-                  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, ex."
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto minima cumque ut corporis sint fugit."
                 }
                 date={"09 Dec 2023"}
                 isPending={false}
               />
-              {/* <Paid_received_chat amt={200000} paid_rece={"paid"} />
-              <Paid_received_chat amt={100000} paid_rece={"received"} />
-              <Paid_received_chat amt={200000} paid_rece={"paid"} />
-              <Paid_received_chat amt={200000} paid_rece={"paid"} />
-              <Paid_received_chat amt={200000} paid_rece={"paid"} />
-              <Paid_received_chat amt={200000} paid_rece={"paid"} /> */}
+              <Paid_received_chat
+                amt={500}
+                paid_rece={"received"}
+                desc={
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto minima cumque ut corporis sint fugit."
+                }
+                date={"10 Dec 2023"}
+                isPending={true}
+              />
+              <Paid_received_chat
+                amt={250}
+                paid_rece={"paid"}
+                desc={
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto minima cumque ut corporis sint fugit."
+                }
+                date={"10 Dec 2023"}
+                isPending={true}
+              />
+              <Paid_received_chat
+                amt={120}
+                paid_rece={"paid"}
+                desc={
+                  "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto minima cumque ut corporis sint fugit."
+                }
+                date={"10 Dec 2023"}
+                isPending={false}
+              />
             </div>
-            <div className="border-b-2 border-x-2 rounded-lg">
+            <div className="border-b-2 border-r-2 rounded-b-lg">
               <div className="pay_recive h-10 flex m-2 ">
                 <input
                   type="number"
